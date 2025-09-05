@@ -56,6 +56,7 @@ from .shipping_option import ShippingOption
 from .shipping_query import ShippingQuery
 from .shipping_address import ShippingAddress
 from .web_app_info import WebAppInfo
+from .webhook_info import WebhookInfo
 
 __all__ = [
     "CallbackGame",
@@ -97,5 +98,6 @@ __all__ = [
     "SentWebAppMessage",
     "ShippingOption",
     "ShippingQuery",
-    "ShippingAddress"
+    "ShippingAddress",
+    "WebhookInfo"
 ]
